@@ -1,0 +1,4 @@
+# The REST integration (main.py) only uses Python's standard library.
+# The dependencies below are for the remote MCP client (test_mcp.py).
+mcp>=2,<3
+python-dotenv>=1.0

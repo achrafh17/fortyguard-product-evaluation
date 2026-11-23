@@ -1,0 +1,21 @@
+# IMPORTANT: Never commit credentials or private files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Local Python dependencies and editor files
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+# Private exports and full original reports
+results/
+private/
+*.log
+.DS_Store
+Thumbs.db
